@@ -126,7 +126,7 @@ logo-2 a {
   transition: all ease 0s;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .header-nav {
     line-height: 1.5rem;
   }
@@ -138,7 +138,7 @@ logo-2 a {
   }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
   .header-nav {
     justify-content: space-between;
     padding: 1rem 0;
@@ -183,13 +183,13 @@ nav {
 ul {
   list-style: none;
 }
-/*
-li {
+
+#footer-text {
   display: inline-block;
   padding: 10px;
   background-color: #8da1c2;
 }
-*/
+
 section.container {
   display: flex;
   flex-flow: row wrap;
