@@ -171,13 +171,26 @@ h1 {
 
 
 p {
-  color: rgb(23, 23, 24);
+  color: rgb(232, 232, 240);
 
   padding: 5px;
 }
 h1 {
+  color:#a2b5da;
   background-color: #7d7a88;
   height: 25px;
+}
+
+h2 {
+  color:  #a2b5da;
+}
+
+h3 {
+  color:  #a2b5da;
+}
+
+h4 {
+  color:  #a2b5da;
 }
 /*
 nav {
@@ -224,7 +237,7 @@ a:visited {
   display: block;
 }
 .about {
-  background-color: lightcyan;
+  background-color: rgb(38, 37, 51);
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -257,7 +270,3 @@ a:visited {
   grid-gap: 00.5rem;
 }
 
-.gallery-img {
-  height: 100%;
-  object-fit: cover;
-}
