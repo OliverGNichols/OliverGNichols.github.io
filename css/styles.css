@@ -168,6 +168,8 @@ h1 {
   font: larger;
   font-family: "Recursive", sans-serif;
 }
+
+
 p {
   color: rgb(23, 23, 24);
 
@@ -186,6 +188,13 @@ nav {
 ul {
   list-style: none;
 }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 #footer-text {
   display: inline-block;
@@ -238,4 +247,17 @@ a:visited {
   align-content: stretch;
   align-content: flex-end;
   align-content: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax (300px, 1fr));
+  grid-gap: 00.5rem;
+}
+
+.gallery-img {
+  height: 100%;
+  object-fit: cover;
 }
